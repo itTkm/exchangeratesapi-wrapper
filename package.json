@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itTkm/exchangeratesapi.git"
+    "url": "git+https://github.com/itTkm/exchangeratesapi-wrapper.git"
   },
   "keywords": [
     "exchangeratesapi.io",
@@ -33,9 +33,9 @@
   "author": "itTkm",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/itTkm/exchangeratesapi/issues"
+    "url": "https://github.com/itTkm/exchangeratesapi-wrapper/issues"
   },
-  "homepage": "https://github.com/itTkm/exchangeratesapi#readme",
+  "homepage": "https://github.com/itTkm/exchangeratesapi-wrapper#readme",
   "dependencies": {
     "@ittkm/exchangeratesapi": "^1.0.1"
   },
