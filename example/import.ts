@@ -3,9 +3,8 @@ import exchangeratesapi, {
   IExchangeratesapiOldHistoryParams,
 } from "@ittkm/exchangeratesapi-wrapper";
 
-// Please get your API Access Key at https://exchangeratesapi.io/
-// and then replace here
-const API_KEY = "1234567890abcdefghijklmnopqrstuv";
+require("dotenv").config();
+const API_KEY = process.env.API_KEY ? process.env.API_KEY : "";
 
 exchangeratesapiWrapperSamples();
 

@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/@ittkm/exchangeratesapi-wrapper.svg)](https://www.npmjs.com/package/@ittkm/exchangeratesapi-wrapper)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](./LICENSE)
 [![Build Status](https://travis-ci.org/itTkm/exchangeratesapi-wrapper.svg?branch=main)](https://travis-ci.org/itTkm/exchangeratesapi-wrapper)
+[![Coverage Status](https://coveralls.io/repos/github/itTkm/exchangeratesapi-wrapper/badge.svg?branch=main)](https://coveralls.io/github/itTkm/exchangeratesapi-wrapper?branch=main)
 
 This is a wrapper that is compatible with the old API of the [Exchangerates API](https://exchangeratesapi.io/).
 
@@ -26,18 +27,6 @@ npm install --save @ittkm/exchangeratesapi-wrapper
 
 # via yarn
 yarn add @ittkm/exchangeratesapi-wrapper
-```
-
-## Examples
-
-After having cloned this repository, run the following commands:
-
-```bash
-cd example/
-npm install
-npm run import-sample
-# # or
-# npm run require-sample
 ```
 
 ## Usage
@@ -137,6 +126,24 @@ console.dir(await api.history(timeseriesParameters));
 The format of the response is compatible with the old Exchangerates API.
 
 See the [archived documentation](https://web.archive.org/web/20210328014153/https://exchangeratesapi.io/) for details.
+
+## Examples
+
+After having cloned this repository, run the following commands:
+
+```bash
+# Please define your API Access Key on the '.env' file
+cp .env.example .env
+vi .env
+
+# Initialize the example project
+cd example/ && npm install
+
+# Excecute example
+npm run import-sample
+# # or
+# npm run require-sample
+```
 
 ## License
 
