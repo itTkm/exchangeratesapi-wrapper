@@ -1,6 +1,7 @@
 # Free wrapper for old API of exchangeratesapi.io
 
 [![npm version](https://img.shields.io/npm/v/@ittkm/exchangeratesapi-wrapper.svg)](https://www.npmjs.com/package/@ittkm/exchangeratesapi-wrapper)
+[![npm downloads](https://img.shields.io/npm/dt/@ittkm/exchangeratesapi-wrapper)](https://www.npmjs.com/package/@ittkm/exchangeratesapi-wrapper)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](./LICENSE)
 [![Build Status](https://travis-ci.org/itTkm/exchangeratesapi-wrapper.svg?branch=main)](https://travis-ci.org/itTkm/exchangeratesapi-wrapper)
 [![Coverage Status](https://coveralls.io/repos/github/itTkm/exchangeratesapi-wrapper/badge.svg?branch=main)](https://coveralls.io/github/itTkm/exchangeratesapi-wrapper?branch=main)
