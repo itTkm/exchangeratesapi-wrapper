@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/itTkm/exchangeratesapi-wrapper#readme",
   "dependencies": {
-    "@ittkm/exchangeratesapi": "^1.0.5"
+    "@ittkm/exchangeratesapi": "^1.0.6"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
