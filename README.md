@@ -1,4 +1,4 @@
-# Free wrapper for old API of exchangeratesapi.io
+# Free wrapper compatible with old API of exchangeratesapi.io
 
 [![npm version](https://img.shields.io/npm/v/@ittkm/exchangeratesapi-wrapper.svg)](https://www.npmjs.com/package/@ittkm/exchangeratesapi-wrapper)
 [![npm downloads](https://img.shields.io/npm/dt/@ittkm/exchangeratesapi-wrapper)](https://www.npmjs.com/package/@ittkm/exchangeratesapi-wrapper)
